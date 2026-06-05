@@ -1,0 +1,14 @@
+# robots.txt — NexaCode
+# Controls which pages search engines can crawl
+
+User-agent: *
+Allow: /
+
+# Block any future admin or private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /.netlify/
+
+# Sitemap location
+Sitemap: https://nexacode.sa/sitemap.xml

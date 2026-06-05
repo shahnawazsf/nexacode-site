@@ -1,0 +1,10 @@
+# Netlify _redirects file
+# Fallback redirect rules (netlify.toml takes priority)
+
+# Custom 404 page (create a 404.html when ready)
+# /* /404.html 404
+
+# Force HTTPS (also handled in netlify.toml)
+http://nexacode.sa/*        https://nexacode.sa/:splat  301!
+http://www.nexacode.sa/*    https://nexacode.sa/:splat  301!
+https://www.nexacode.sa/*   https://nexacode.sa/:splat  301!
